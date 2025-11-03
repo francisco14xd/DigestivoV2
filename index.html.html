@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semiología Digestiva (Detallada)</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #212529;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #007bff;
+        }
+        h3 {
+            color: #343a40;
+        }
+        /* Estilo para las secciones principales colapsables */
+        details.seccion {
+            background: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        details.seccion > summary {
+            font-size: 1.5rem;
+            font-weight: 600;
+            padding: 15px 20px;
+            cursor: pointer;
+            list-style: none; /* Oculta el marcador por defecto */
+            background-color: #f1f3f5;
+            border-bottom: 1px solid #dee2e6;
+            border-radius: 8px 8px 0 0;
+        }
+        details.seccion > summary::-webkit-details-marker {
+            display: none; /* Oculta marcador en Chrome/Safari */
+        }
+        details.seccion[open] > summary {
+            background-color: #e9ecef;
+            border-radius: 8px 8px 0 0;
+        }
+        .contenido-seccion {
+            padding: 20px;
+        }
+        
+        /* Estilo para las sub-secciones colapsables */
+        details.sub-seccion {
+            background: #fdfdfd;
+            border: 1px solid #e9ecef;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        details.sub-seccion > summary {
+            font-size: 1.1rem;
+            font-weight: bold;
+            padding: 10px 15px;
+            cursor: pointer;
+            list-style-position: inside;
+            background-color: #f8f9fa;
+        }
+        details.sub-seccion[open] > summary {
+            background-color: #f1f3f5;
+        }
+        .contenido-sub-seccion {
+            padding: 15px 15px 15px 40px; /* Indentación para el contenido */
+        }
+
+        /* Estilos para Tablas */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+        th, td {
+            border: 1px solid #ced4da;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #e9ecef;
+            font-weight: 600;
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #f8f9fa;
+        }
+        
+        /* Estilos para elementos especiales */
+        .perla-clinica {
+            background-color: #fff3cd;
+            border-left: 5px solid #ffeeba;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        #indice {
+            background: #fff;
+            padding: 15px 25px;
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+            margin-bottom: 25px;
+        }
+        #indice ul {
+            padding-left: 20px;
+        }
+        #indice li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Síntesis Clínica Detallada del Capítulo Digestivo</h1>
+    <p>Esta síntesis ha sido elaborada basándose exclusivamente en la información contenida en las fuentes proporcionadas (Guía de semiología U, Argente y Goic), con el objetivo de servir como una guía de estudio profunda y exhaustiva de utilidad semiológica y clínica.</p>
+
+    <nav id="indice">
+        <h2>Índice Rápido</h2>
+        <ul>
+            <li><a href="#seccion1">I. Definiciones Clave y Conceptos Fundamentales</a></li>
+            <li><a href="#seccion2">II. Técnicas de Exploración del Abdomen (Semiotecnia)</a></li>
+            <li><a href="#seccion3">III. Signos y Síntomas Cardinales y su Correlación Clínica</a></li>
+            <li><a href="#seccion4">IV. Perlas Clínicas y Razonamiento Fisiopatológico</a></li>
+            <li><a href="#seccion5">V. Síndromes Digestivos Principales</a></li>
+        </ul>
+    </nav>
+
+    <details class="seccion" id="seccion1">
+        <summary>I. Definiciones Clave y Conceptos Fundamentales</summary>
+        <div class="contenido-seccion">
+            <table>
+                <tbody>
+                    <tr><td><strong>Disfagia:</strong></td><td>Sensación de dificultad para trasladar el bolo alimenticio de la boca hacia el estómago. Se define objetivamente como la dificultad inmediata para trasladar el alimento.</td></tr>
+                    <tr><td><strong>Odinofagia:</strong></td><td>Dolor que se produce durante la deglución.</td></tr>
+                    <tr><td><strong>Dispepsia:</strong></td><td>Dolor o malestar, crónico o recurrente, localizado en el abdomen superior y a menudo relacionado con la ingesta, de más de un mes de duración. Es un conjunto de síntomas digestivos altos inespecíficos relacionados con la ingestión.</td></tr>
+                    <tr><td><strong>Náusea:</strong></td><td>Sensación desagradable de repulsión por los alimentos y deseo inminente e involuntario de vomitar.</td></tr>
+                    <tr><td><strong>Vómito (Emesis):</strong></td><td>Expulsión forzada y enérgica del contenido gástrico por la boca.</td></tr>
+                    <tr><td><strong>Hematemesis:</strong></td><td>Vómito de sangre proveniente del esófago, estómago o duodeno.</td></tr>
+                    <tr><td><strong>Diarrea:</strong></td><td>Presencia de tres o más deposiciones líquidas en un período de 24 horas. La definición objetiva es un peso de heces diarias mayor de 200 gramos.</td></tr>
+                    <tr><td><strong>Disentería:</strong></td><td>Deposición diarreica acompañada de sangre, mucosidades y pus. Indica inflamación del recto (rectitis) y/o colon (colitis).</td></tr>
+                    <tr><td><strong>Melena:</strong></td><td>Deposición negra “como el alquitrán”, de consistencia pastosa y olor fuerte, debido a hemorragia digestiva alta (contacto con ácido clorhídrico).</td></tr>
+                    <tr><td><strong>Acolia/Hipoacolia:</strong></td><td>Heces de color blanco o grisáceo (acolia) o amarillo (hipoacolia) por ausencia o disminución del contenido de pigmento biliar.</td></tr>
+                    <tr><td><strong>Constipación (Estreñimiento):</strong></td><td>Retardo en la evacuación de las heces, las que aparecen aumentadas de consistencia.</td></tr>
+                    <tr><td><strong>Íleo:</strong></td><td>Interrupción de la progresión distal del contenido intestinal. Se clasifica en adinámico (paralítico) o mecánico (obstructivo).</td></tr>
+                    <tr><td><strong>Ascitis:</strong></td><td>Acumulación anormal de líquido libre en la cavidad peritoneal.</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </details>
+
+    <details class="seccion" id="seccion2" open>
+        <summary>II. Técnicas de Exploración del Abdomen (Semiotecnia)</summary>
+        <div class="contenido-seccion">
+            <p>El examen físico del abdomen debe alterar la secuencia clásica de la semiología, realizando la <strong>auscultación antes de la percusión y la palpación</strong>. Esto asegura que los ruidos hidroaéreos (RHA) sean espontáneos y no provocados.</p>
+            
+            <details class="sub-seccion">
+                <summary>A. Inspección (Ver)</summary>
+                <div class="contenido-sub-seccion">
+                    <ul>
+                        <li><strong>Posición y Actitud:</strong> El paciente con dolor cólico visceral está inquieto y en movimiento permanente, mientras que el paciente con peritonitis presenta inmovilidad, respiración superficial y muslos levemente flexionados (posición antiálgica). La posición de plegaria mahometana se observa en la pancreatitis aguda.</li>
+                        <li><strong>Configuración:</strong> Observar la forma (plano, excavado, globoso).
+                            <ul>
+                                <li><strong>Abdomen Globoso:</strong> Puede ser por meteorismo u obesidad (ombligo hacia adentro), o ascitis importante (ombligo procidente).</li>
+                                <li><strong>Abdomen en Batracio:</strong> Abdomen achatado con líquido en las regiones laterales, típico de ascitis antigua.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Movilidad Respiratoria:</strong> En casos de irritación peritoneal, el abdomen no acompaña los movimientos respiratorios, o estos están disminuidos o ausentes, invirtiéndose la movilidad a predominio torácico.</li>
+                        <li><strong>Latidos y Peristaltismo:</strong> Observar latido epigástrico (transmitido por la aorta normal, o exagerado en estados hiperdinámicos). Las ondas peristálticas visibles sugieren obstrucción del intestino delgado.</li>
+                        <li><strong>Signos de Hemorragia Retroperitoneal (Perlas Clínicas):</strong>
+                            <ul>
+                                <li><strong>Signo de Cullen:</strong> Equimosis alrededor del ombligo.</li>
+                                <li><strong>Signo de Grey Turner:</strong> Equimosis en los flancos.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>B. Auscultación (Escuchar)</summary>
+                <div class="contenido-sub-seccion">
+                    <ul>
+                        <li><strong>Ruidos Hidroaéreos (RHA) / Borborigmos:</strong> Se escuchan suaves, continuos, con intermitencia de 5 a 30 por minuto (normal). Se debe auscultar por más de 5 minutos para asegurar su ausencia.</li>
+                        <li><strong>RHA Anormales:</strong>
+                            <ul>
+                                <li><strong>Ruidos de Lucha:</strong> Aumento de frecuencia e intensidad, de tonalidad alta y timbre metálico. Característicos de obstrucción mecánica intestinal. Coinciden con el dolor cólico intestinal.</li>
+                                <li><strong>Silencio Abdominal:</strong> Ausencia total de RHA. Típico del íleo adinámico o paralítico y la peritonitis generalizada.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Soplos y Frotes:</strong>
+                            <ul>
+                                <li><strong>Murmullo Venoso Umbilical:</strong> Tono suave, indica repermeabilización de la vena umbilical en hipertensión portal.</li>
+                                <li><strong>Soplos sistólicos:</strong> En aorta (aneurisma), arterias renales (estenosis).</li>
+                                <li><strong>Frotes peritoneales:</strong> En hígado (metástasis, perihepatitis) o bazo (periesplenitis).</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>C. Percusión (Golpear)</summary>
+                <div class="contenido-sub-seccion">
+                    <ul>
+                        <li><strong>Sonoridad:</strong> El abdomen normal es predominantemente timpánico. El timpanismo difuso aumenta en el meteorismo (mayor contenido aéreo).</li>
+                        <li><strong>Espacio de Traube:</strong> Normalmente timpánico (porción torácica del hipocondrio izquierdo). La matidez indica esplenomegalia, derrame pleural izquierdo, o tumores del techo gástrico.</li>
+                        <li><strong>Matidez Fija:</strong> Se observa en globo vesical, grandes quistes ováricos, miomas uterinos o embarazo (convexidad hacia arriba).</li>
+                        <li><strong>Detección de Ascitis:</strong>
+                            <ul>
+                                <li><strong>Matidez Desplazable:</strong> El límite superior de la matidez es cóncavo hacia arriba, y la matidez se desplaza hacia la zona declive al cambiar el decúbito.</li>
+                                <li><strong>Onda Ascítica:</strong> Se percibe una onda líquida al percutir un flanco mientras la otra mano se apoya en el flanco opuesto (con el pulgar bloqueando la onda de la pared).</li>
+                                <li><strong>Percusión en Damero:</strong> Alternancia de zonas de matidez y sonoridad, indicando ascitis tabicada (ej. tuberculosis peritoneal plástica).</li>
+                            </ul>
+                        </li>
+                        <li><strong>Neumoperitoneo:</strong> Se sospecha por la desaparición de la matidez hepática (<strong>Signo de Jobert</strong>).</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>D. Palpación (Tocar)</summary>
+                <div class="contenido-sub-seccion">
+                    <p>La palpación es la técnica semiológica más importante. Se divide en superficial (pared) y profunda (contenido).</p>
+                    
+                    <h4>Palpación Superficial:</h4>
+                    <ul>
+                        <li><strong>Maniobra de la Mano de Escultor de Merlo:</strong> La mano derecha plana se pasa sobre toda la superficie abdominal, buscando la relajación de la pared, la temperatura, sensibilidad, trofismo y abovedamientos.</li>
+                        <li><strong>Tensión Abdominal y Defensa:</strong> El aumento de tensión y dolor indica defensa abdominal o inflamación de la serosa subyacente.</li>
+                        <li><strong>Abdomen en Tabla:</strong> Rigidez involuntaria, tensa y dolorosa, propia de la peritonitis avanzada o perforación de víscera hueca.</li>
+                        <li><strong>Signo de Blumberg (Dolor de Rebote Localizado):</strong> Dolor agudo al descomprimir bruscamente la pared. Indica irritación del peritoneo parietal.</li>
+                        <li><strong>Signo de Guéneau de Mussy (Dolor de Rebote Generalizado):</strong> Dolor a la descompresión en cualquier punto del abdomen. Indica peritonitis generalizada y gravedad.</li>
+                    </ul>
+
+                    <h4>Palpación Profunda (Vísceras y Masas):</h4>
+                    <ul>
+                        <li><strong>Maniobra de Deslizamiento:</strong> Se utiliza para palpar vísceras huecas (marco colónico, ciego, sigmoides).
+                            <ul>
+                                <li>El ciego gorgoteante y doloroso en la Fosa Ilíaca Derecha (FID) sugiere dispepsia fermentativa crónica.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Bazuqueo Gástrico:</strong> Movimientos rápidos con la punta de los dedos en el epigastrio. Positivo en ayunas (4-6 horas) indica contenido gástrico retenido y síndrome pilórico en fase de atonía.</li>
+                        <li><strong>Signo del Témpano (Ballottement):</strong> Se detecta una masa que rebota (ej. hígado) al presionar bruscamente a través de una capa de líquido (ascitis).</li>
+                        <li><strong>Puntos Dolorosos:</strong> Investigar puntos como el de <strong>McBurney</strong> (apendicitis aguda: unión del tercio externo con los dos tercios internos de la línea EIAD-Ombligo).</li>
+                    </ul>
+
+                    <h4>Palpación de Órganos Macizos (Hígado, Bazo, Riñón):</h4>
+                    <ul>
+                        <li><strong>Hígado:</strong> Se debe evaluar forma, superficie, borde, consistencia y dolor.
+                            <ul>
+                                <li><strong>Signo de Murphy:</strong> Detención abrupta de la inspiración a la palpación profunda del hipocondrio derecho por dolor. Sugiere colecistitis aguda.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Vesícula Biliar Palpable (Perlas Clínicas):</strong>
+                            <ul>
+                                <li>Palpable dolorosa sin ictericia: Colecistitis aguda.</li>
+                                <li>Palpable no dolorosa con ictericia (<strong>Signo de Courvoisier-Terrier</strong>): Cáncer de la cabeza del páncreas o coledocolitiasis.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Bazo:</strong> El bazo normal no es palpable.
+                            <ul>
+                                <li><strong>Maniobra de Naegeli:</strong> Paciente en decúbito intermedio lateral, mano izquierda levanta pared, mano derecha busca borde en inspiración profunda.</li>
+                                <li><strong>Percusión de Castell:</strong> Matidez en el último espacio intercostal sobre la línea axilar anterior (punto de Castell) indica esplenomegalia.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Palpación Renal (Peloteo Renal):</strong> En decúbito dorsal, la mano posterior impulsa el riñón hacia delante mientras la mano anterior palpa bajo el reborde costal durante la inspiración profunda.</li>
+                    </ul>
+                </div>
+            </details>
+        </div>
+    </details>
+
+    <details class="seccion" id="seccion3">
+        <summary>III. Signos y Síntomas Cardinales y su Correlación Clínica</summary>
+        <div class="contenido-seccion">
+
+            <details class="sub-seccion">
+                <summary>1. Disfagia y Odinofagia (Trastornos de la Deglución)</summary>
+                <div class="contenido-sub-seccion">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tipo de Disfagia</th>
+                                <th>Características Semioclínicas</th>
+                                <th>Etiología/DxD Clave</th>
+                                <th>Fisiopatología/Razonamiento</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Orofaríngea (Alta)</strong></td>
+                                <td>Dificultad al inicio de la deglución. Síntomas asociados: Tos durante la deglución, regurgitación nasal, aspiración. Afecta principalmente líquidos.</td>
+                                <td>Neuromusculares: ACV, Parkinson, ELA, Miastenia grave. Estructurales: Divertículo de Zenker, neoplasias orofaríngeas.</td>
+                                <td>Afecta músculo esquelético y coordinación faríngea. La tos y la aspiración se dan por la falla en el cierre de la glotis.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Esofágica (Baja)</strong></td>
+                                <td>Dificultad en la etapa tardía de la deglución (sensación retroesternal). Afecta a sólidos (mecánica) o sólidos y líquidos (motora).</td>
+                                <td>Mecánica (Progresiva): Estenosis péptica, anillo de Schatzki, cáncer esofágico. Motora (Intermitente): Acalasia, espasmo difuso, esclerodermia.</td>
+                                <td>Afecta músculo liso esofágico. La progresión de la dificultad (de sólidos a líquidos) sugiere obstrucción estructural.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong>Síntomas de Alarma en Disfagia:</strong> CEG (Compromiso del Estado General), baja de peso, hemorragia digestiva, anemia sin origen conocido, vómitos de retención y saciedad precoz.</p>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>2. Dispepsia (Trastornos de la Digestión)</summary>
+                <div class="contenido-sub-seccion">
+                    <p><strong>Síntomas Dispépticos (Exhaustivos):</strong></p>
+                    <ul>
+                        <li><strong>Malestar:</strong> Dolor o malestar vago epigástrico, acidez, pirosis.</li>
+                        <li><strong>Llenura:</strong> Saciedad precoz, plenitud posprandial, sensación de distensión abdominal (meteorismo).</li>
+                        <li><strong>Otros:</strong> Mal gusto/boca amarga, repugnancia por los alimentos, eructación, flatulencia anal, náuseas.</li>
+                    </ul>
+                    <p><strong>Correlación Clínica y DxD (Etiología):</strong></p>
+                    <ul>
+                        <li>Dispepsia reciente en adulto mayor con enflaquecimiento: Siempre obliga a descartar <strong>cáncer gástrico</strong> u otra patología orgánica maligna.</li>
+                        <li>Intolerancia a colecistocinéticos (grasas, chocolate, yema de huevo): Sugiere <strong>patología vesicular</strong> (litiasis biliar o colecistopatía crónica).</li>
+                        <li>Dispepsia inespecífica y crónica, sin pérdida de peso, con síntomas emocionales: Sugiere <strong>Dispepsia Funcional</strong> o Colon Irritable.</li>
+                        <li>Saciedad precoz, repugnancia alimenticia, náuseas/vómitos, malestar abdominal: Sugieren el período prodrómico de una <strong>hepatitis aguda viral</strong>.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>3. Náuseas y Vómitos (N/V)</summary>
+                <div class="contenido-sub-seccion">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Hallazgo Semioclínico</th>
+                                <th>Correlación Clínica</th>
+                                <th>Fisiopatología/Razonamiento</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Vómito de Retención</strong> (8-12 h post-ingesta)</td>
+                                <td>Obstrucción pilórica.</td>
+                                <td>El estómago retiene alimentos sin digerir debido a la estenosis (mecánica o por atonía gástrica).</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Alivio del Dolor</strong> con el Vómito</td>
+                                <td>Típico de la úlcera péptica.</td>
+                                <td>La expulsión del contenido ácido del estómago descomprime el proceso ulceroso.</td>
+                            </tr>
+                            <tr>
+                                <td>Vómitos Copiosos que <strong>NO alivian el dolor</strong></td>
+                                <td>Sugieren pancreatitis aguda.</td>
+                                <td>La inflamación pancreática produce náuseas/vómitos por mecanismos reflejos, pero el dolor subyacente (inflamación de la cápsula) es constante.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>N/V agudos</strong> (1-2 días) vs <strong>Crónicos</strong> (> 1 mes)</td>
+                                <td>Agudos: Infección gastrointestinal, fármacos, toxinas. Crónicos: Gastroparesia (diabética, idiopática), obstrucción pilórica, psicógenos (bulimia, anorexia).</td>
+                                <td>La temporalidad orienta rápidamente entre causas autolimitadas o patología sistémica/obstructiva crónica.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Síntomas Neurológicos Asociados</strong> (Cefalea, Vértigo, Rigidez de nuca)</td>
+                                <td>Afección del Sistema Nervioso Central (tumor, ACV, hipertensión endocraneana).</td>
+                                <td>El centro del vómito es sensible a la presión endocraneana.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>4. Diarrea y Anorrectales</summary>
+                <div class="contenido-sub-seccion">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tipo de Evacuación/Síntoma</th>
+                                <th>Correlación Clínica</th>
+                                <th>DxD y Notas Clínicas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Diarrea Orgánica</strong></td>
+                                <td>Infección, Enfermedad Inflamatoria Intestinal (EII), Neoplasia.</td>
+                                <td>Diurna y nocturna. Con sangre, pus o moco. A menudo con enflaquecimiento y compromiso del estado general.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Diarrea Funcional</strong></td>
+                                <td>Colon Irritable (SII), Trastornos funcionales.</td>
+                                <td>Solo diurna, frecuente o exclusivamente matinal y posprandial. Suele conservar el peso.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Pseudodiarrea</strong></td>
+                                <td>Impactación fecal (forma extrema de constipación).</td>
+                                <td>Evacuación repetida de pequeñas cantidades de líquido fecal alrededor de una masa fecal dura.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Esteatorrea</strong></td>
+                                <td>Síndrome de Malabsorción, Insuficiencia Pancreática.</td>
+                                <td>Heces voluminosas, flotan, amarillento claro, olor rancio.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Pujo y Tenesmo Rectal</strong></td>
+                                <td>Síndrome Disentérico.</td>
+                                <td>Contracción voluntaria/involuntaria y deseo de seguir evacuando. Indican irritación o inflamación del recto.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong>Síntomas de Alarma en Diarrea:</strong> Signos de deshidratación (taquicardia, hipotensión ortostática), fiebre $>38^{\circ}$C por más de 48h, deposiciones sanguinolentas, frecuencia $>6$ veces/día, diarrea persistente, dolor abdominal en mayores de 50 años, o pacientes inmunodeprimidos.</p>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>5. Hemorragia Digestiva (HD)</summary>
+                <div class="contenido-sub-seccion">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Tipo de Sangrado</th>
+                                <th>Localización Estimada</th>
+                                <th>Diferenciación Clave</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Hematemesis</strong></td>
+                                <td>HDA (Esófago, Estómago, Duodeno).</td>
+                                <td>Sangre oscura, parcialmente coagulada, ácida, precedida de náuseas y arcadas.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Melena</strong></td>
+                                <td>HDA.</td>
+                                <td>Sangre digerida (negra, alquitranada). Típicamente asociada a úlcera, gastritis erosiva, várices esofágicas.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Rectorragia</strong></td>
+                                <td>HDB (Recto, bajo).</td>
+                                <td>Sangre fresca (rojo brillante) que no se mezcla con las heces. Causa común: hemorroides, fisura anal.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Hematoquecia</strong></td>
+                                <td>HDB.</td>
+                                <td>Deposiciones sanguinolentas. Si el tránsito es lento, una HDA muy masiva puede presentarse con hematoquecia.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong>Signos Hemodinámicos de Sangrado Agudo:</strong> Taquicardia, hipotensión arterial, palidez, llene capilar prolongado ($>2$ segundos), signos de deshidratación.</p>
+                </div>
+            </details>
+
+        </div>
+    </details>
+
+    <details class="seccion" id="seccion4">
+        <summary>IV. Perlas Clínicas y Razonamiento Fisiopatológico</summary>
+        <div class="contenido-seccion">
+            
+            <div class="perla-clinica">
+                <strong>Fisiopatología de la Peritonitis:</strong> La irritación peritoneal produce parálisis intestinal (íleo paralítico), que se manifiesta semiológicamente como <strong>silencio abdominal</strong>.
+            </div>
+            <div class="perla-clinica">
+                <strong>Fisiopatología del Dolor Ulceroso:</strong> La <strong>ritmicidad</strong> (relación con la ingesta) y la <strong>periodicidad</strong> (períodos dolorosos seguidos de bienestar absoluto) son claves. El dolor cesa porque el alimento o los alcalinos tamponan el ácido clorhídrico, factor clave en la fisiopatología de la úlcera péptica.
+            </div>
+            <div class="perla-clinica">
+                <strong>Diagnóstico Diferencial del Dolor Abdominal:</strong> No todo dolor abdominal tiene origen digestivo.
+                <ul>
+                    <li><strong>Dolor Epigástrico:</strong> Puede ser IAM (cara inferior), pancreatitis, o úlcera péptica.</li>
+                    <li><strong>Dolor Irradiado al Hombro:</strong> Sugiere irritación subdiafragmática (colecistitis, perforación de úlcera).</li>
+                </ul>
+            </div>
+            <div class="perla-clinica">
+                <strong>Melena vs. Rectorragia:</strong> La melena es oscura debido al contacto de la hemoglobina con el ácido gástrico. El color rojo brillante de la rectorragia indica que la sangre no ha sido digerida, sugiriendo un origen distal (recto/ano).
+            </div>
+            <div class="perla-clinica">
+                <strong>La Diarrea Funcional NO es Nocturna:</strong> Este es un dato clave en la anamnesis para diferenciarla de la diarrea orgánica, la cual es diurna y nocturna.
+            </div>
+
+        </div>
+    </details>
+
+    <details class="seccion" id="seccion5">
+        <summary>V. Síndromes Digestivos Principales</summary>
+        <div class="contenido-seccion">
+
+            <details class="sub-seccion">
+                <summary>A. Síndrome Ulceroso</summary>
+                <div class="contenido-sub-seccion">
+                    <ul>
+                        <li><strong>Definición:</strong> Dolor abdominal crónico, generalmente en el epigastrio, caracterizado por su <strong>periodicidad</strong> (repetición de episodios dolorosos separados por periodos de bienestar) y <strong>ritmicidad</strong> (relación con la ingesta).</li>
+                        <li><strong>Complicaciones (Abdomen Agudo):</strong>
+                            <ul>
+                                <li><strong>Perforación:</strong> Dolor súbito, excruciante, generalizado. Evoluciona a abdomen en tabla y requiere cirugía urgente. La semiología incluye el signo de Jobert negativo.</li>
+                                <li><strong>Obstrucción Pilórica:</strong> Presentación como síndrome pilórico.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>B. Síndrome Pilórico (Retención Gástrica)</summary>
+                <div class="contenido-sub-seccion">
+                    <ul>
+                        <li><strong>Componentes Clínicos:</strong> Se debe a la obstrucción del vaciamiento gástrico.</li>
+                        <li><strong>Vómitos:</strong> Síntoma cardinal ($>90%$). Típicamente vómitos de retención (con alimentos de comidas previas, 8 a 12 horas después de la ingesta).</li>
+                        <li><strong>Pérdida de Peso</strong> (65%), anorexia, y <strong>saciedad precoz</strong> (60%).</li>
+                        <li>Dolor abdominal epigástrico, que puede aliviarse con el vómito (si es por úlcera).</li>
+                        <li><strong>Fisiopatología:</strong> Puede ser por obstrucción mecánica (estenosis cicatrizal de úlcera péptica, neoplasias) o por atonía gástrica (gastroparesia diabética).</li>
+                        <li><strong>Hallazgo Semioclínico Clave:</strong> <strong>Bazuqueo Gástrico</strong> (chapoteo gástrico) en el epigastrio, positivo con el paciente en ayunas (4-6 horas). Esto evidencia la retención y la atonía gástrica.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>C. Íleo (Obstrucción Intestinal)</summary>
+                <div class="contenido-sub-seccion">
+                    <ul>
+                        <li><strong>Clasificación y Hallazgos Auscultatorios:</strong>
+                            <ul>
+                                <li><strong>Íleo Mecánico (Obstructivo):</strong> Se caracteriza inicialmente por <strong>ruidos de lucha</strong> (RHA aumentados, tono metálico) debido al hiperperistaltismo intentando vencer el obstáculo.</li>
+                                <li><strong>Íleo Paralítico (Adinámico):</strong> Se caracteriza por <strong>silencio abdominal</strong>.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Síntomas Cardinales:</strong> Dolor abdominal cólico, vómitos, y falta de eliminación de deposiciones y gases.</li>
+                        <li><strong>Complicaciones y Razonamiento:</strong> La pérdida de volumen circulante hacia el lumen intestinal y el tercer espacio abdominal genera deshidratación y puede llevar al shock.</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>D. Síndrome del Intestino Irritable (SII)</summary>
+                <div class="contenido-sub-seccion">
+                    <ul>
+                        <li><strong>Definición:</strong> Trastorno funcional caracterizado por dolor abdominal crónico o recurrente asociado a cambios en el hábito evacuatorio. Es el trastorno digestivo funcional más frecuente.</li>
+                        <li><strong>Clínica Clave:</strong> Dolor abdominal asociado a la defecación y/o cambios en la consistencia/frecuencia de las heces. La <strong>distensión abdominal (meteorismo)</strong> es un síntoma cardinal y principal motivo de consulta. Las heces suelen ser errantes o vagas.</li>
+                        <li><strong>Fisiopatología:</strong> Trastorno de la interacción cerebro-intestino, con fuerte componente de estrés, ansiedad y depresión.</li>
+                        <li><strong>DxD Esencial (Exclusión):</strong> Debe descartarse mediante anamnesis y estudios básicos la enfermedad celíaca, EII, hipo/hipertiroidismo y la presencia de síntomas de alarma (sangrado, pérdida de peso, síntomas nocturnos).</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details class="sub-seccion">
+                <summary>E. Peritonitis</summary>
+                <div class="contenido-sub-seccion">
+                    <ul>
+                        <li><strong>Signos Locales Cruciales:</strong>
+                            <ul>
+                                <li><strong>Rigidez (Abdomen en tabla):</strong> Contractura muscular involuntaria severa, signo de gravedad quirúrgica.</li>
+                                <li><strong>Dolor a la descompresión:</strong> Signo de <strong>Blumberg</strong> (localizado) o <strong>Guéneau de Mussy</strong> (generalizado).</li>
+                                <li><strong>Silencio Abdominal:</strong> Ausencia de ruidos hidroaéreos.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Posición del Paciente:</strong> El paciente está inmóvil, evitando cualquier movimiento (como la respiración) que exacerbe el dolor peritoneal.</li>
+                        <li><strong>Tacto Rectal:</strong> Inexcusable en abdomen agudo; ayuda a localizar dolor en el fondo de saco de Douglas (ej. apendicitis pélvica) y a descartar fecaloma o tumor rectal.</li>
+                    </ul>
+                </div>
+            </details>
+
+        </div>
+    </details>
+
+</body>
+</html>
